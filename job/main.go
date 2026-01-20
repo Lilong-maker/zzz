@@ -3,7 +3,7 @@ Copyright © 2026 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "zzz/job/cmd"
+import "github.com/Lilong-maker/zzz/job/cmd"
 
 func main() {
 	cmd.Execute()

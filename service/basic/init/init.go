@@ -2,9 +2,9 @@ package init
 
 import (
 	"fmt"
-	"zzz/service/basic/config"
-	"zzz/service/handler/model"
 
+	"github.com/Lilong-maker/zzz/service/basic/config"
+	"github.com/Lilong-maker/zzz/service/handler/model"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

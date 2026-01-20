@@ -5,11 +5,9 @@ import (
 	"fmt"
 	"log"
 	"net"
-	_ "zzz/service/basic/init"
-	__ "zzz/service/basic/proto"
 
-	"zzz/service/handler/service"
-
+	__ "github.com/Lilong-maker/zzz/service/basic/proto"
+	"github.com/Lilong-maker/zzz/service/handler/service"
 	"google.golang.org/grpc"
 )
 

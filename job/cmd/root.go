@@ -6,8 +6,8 @@ package cmd
 import (
 	"fmt"
 	"os"
-	"zzz/service/basic/config"
 
+	"github.com/Lilong-maker/zzz/service/basic/config"
 	"github.com/spf13/cobra"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

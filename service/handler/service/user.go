@@ -2,9 +2,10 @@ package service
 
 import (
 	"context"
-	"zzz/service/basic/config"
-	__ "zzz/service/basic/proto"
-	"zzz/service/handler/model"
+
+	"github.com/Lilong-maker/zzz/service/basic/config"
+	__ "github.com/Lilong-maker/zzz/service/basic/proto"
+	"github.com/Lilong-maker/zzz/service/handler/model"
 )
 
 // server is used to implement helloworld.GreeterServer.
