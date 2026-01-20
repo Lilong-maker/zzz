@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "./";
+
+message GoodsAddReq {
+  string name = 1;
+  int32 num = 2;
+}
+
+message GoodsAddResp {
+  int32 code= 1;
+  string msg= 2;
+}
+message GoodsUpdateReq {
+  int32 id =1;
+  string name = 2;
+  int32 num = 3;
+}
+
+message GoodsUpdateResp {
+  int32 code= 1;
+  string msg= 2;
+
+
+}
+message GoodsListReq {
+  int32 id =1;
+
+}
+
+message GoodsListResp {
+  string name = 4;
+  int32 num = 5;
+  int32 code= 1;
+  string msg= 2;
+
+}
+message GoodsDeleteReq {
+  int32 id =1;
+}
+
+message GoodsDeleteResp {
+  int32 code= 1;
+  string msg= 2;
+
+}
+service User {
+  rpc GoodsAdd(GoodsAddReq) returns (GoodsAddResp);
+  rpc GoodsUpdate(GoodsUpdateReq) returns (GoodsUpdateResp);
+  rpc GoodsList(GoodsListReq) returns (GoodsListResp);
+  rpc GoodsDelete(GoodsDeleteReq) returns (GoodsDeleteResp);
+}
