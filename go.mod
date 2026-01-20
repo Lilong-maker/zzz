@@ -1,4 +1,4 @@
-module zzz
+module github.com/Lilong-maker/zzz
 
 go 1.25.5
 
